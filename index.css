@@ -1,0 +1,97 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: pink;
+}
+
+#app{
+	position: relative;
+	width: 300px;
+	height: 200px;
+	overflow: hidden;
+	border: 1px solid red;
+	/*一下新添*/
+	margin:20px auto;
+}
+
+.items{
+	/*取消图片间距*/
+	font-size: 0;
+	position: relative;
+	width: 1500px;
+	height: 200px;
+}
+
+.item{
+	display: inline-block;
+	width: 300px;
+	height: inherit;/*这是什么东东？？？*/
+}
+
+.item:nth-child(1){
+	background: aqua;
+}
+
+.item:nth-child(2){
+	background: gold;
+}
+
+.item:nth-child(3){
+	background:tomato;
+}
+
+.item:nth-child(4){
+	background: steelblue;
+}
+
+.item:nth-child(5){
+	background: springgreen;
+}
+
+.control{
+	position: absolute;
+	top: 0;
+	width: 30px;
+	height: 200px;
+	transition: all 0.3s;
+}
+
+.control:hover{
+	background: #7492C8;
+	cursor: pointer;
+}
+
+.pre{
+	left: 0;
+}
+
+.back{
+	right: 0;
+}
+
+/*添加的图片设置的大小*/
+img{
+	width: 300px;
+	height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
